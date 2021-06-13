@@ -1,0 +1,5392 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "c25deb4f-7dc5-4ac4-b2f0-2cfeaccf5be0",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "PROTOTIPO",
+    "author": "",
+    "windowWidth": 850,
+    "windowHeight": 730,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top Right Corner Wood Background Cutout.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top Right Corner Wood Background Cutout.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Wood Background/Cutout/Top Right Corner Wood Background Cutout.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Plank_Variation3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Planks/Wood Plank_Variation3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Plank_Variation1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Planks/Wood Plank_Variation1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Plank_Variation2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Planks/Wood Plank_Variation2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wood Plank_Variation4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Tile Sets/Planks/Wood Plank_Variation4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Desert Tile Platform Center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert Tile Platform Center.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/tiled_Desert Tile Platform Center.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Desert Tile Platform Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert Tile Platform Right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Desert Tile Platform Right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Desert Tile Platform Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert Tile Platform Left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Desert Tile Platform Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Ground_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Ground_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Ground_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Ground_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Ground_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Ground_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Ground_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Hit_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Hit_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Dead Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Dead Ground_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Dead Ground_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door In_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door In_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door In_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Door Out_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Door Out_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Door Out_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Fall_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Fall_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Fall_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Fall_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Ground_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Ground_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Ground_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Ground_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Ground_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Ground_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Hit_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Hit_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Hit_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_18.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_18.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_17.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_17.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_19.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_19.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_20.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_20.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_21.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_21.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_22.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_22.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_23.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_23.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_24.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_24.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_25.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_25.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_26.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_26.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Idle_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Jump Anticipation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Jump Anticipation.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Jump Anticipation.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Jump_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Jump_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Jump_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Jump_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Jump_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Jump_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bomb Guy_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bomb Guy_Run_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bomb Guy/Bomb Guy_Run_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_east.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_east.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_all_128.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_all_128.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_center.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_center.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_north.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_north.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_northwest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_northwest.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_northwest.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_northeast.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_northeast.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_northeast.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_south.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_south.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_southeast.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_southeast.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_southeast.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_southwest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_southwest.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_southwest.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_west.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_sand_west.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Tiles/9patch_sand_west.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\9patch_sand_center.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Attack_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Attack_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Attack_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Ground_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Ground_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Ground_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Ground_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Ground_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Ground_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Ground_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Ground_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Ground_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Fall_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Fall_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Fall_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Fall_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Ground_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Ground_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Ground_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Ground_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Ground_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Ground_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Dead Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Dead Hit_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Dead Hit_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Hit_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Hit_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Hit_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_15.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_16.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_17.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_17.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_18.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_18.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_19.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_19.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_20.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_20.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_21.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_21.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_23.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_23.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_22.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_22.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_24.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_24.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_25.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_25.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_26.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_26.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_28.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_28.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_27.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_27.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_29.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_29.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_30.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_30.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_31.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_31.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_33.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_33.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_34.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_34.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Jump Anticipation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Jump Anticipation.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Jump Anticipation.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Jump_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Jump_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Jump_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Jump_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Jump_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Jump_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_10.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_11.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_12.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_13.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_14.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Run_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Run_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bald Pirate_Idle_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bald Pirate_Idle_32.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Characters/Bald Pirate/Bald Pirate_Idle_32.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\9patch_sand_all_128.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pyramid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pyramid.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Generic Backgrounds/Background Objects/Retina/pyramid.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sin título.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sin título.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ESCALERASLEFT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ESCALERASLEFT.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Wood Plank_Variation2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ship wood part (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ship wood part (4).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Pack (190 assets)/PNG/Retina/Ship parts/Ship wood part (4).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/StoneBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StoneBlock.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Objects/StoneBlock.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ESCALERAS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ESCALERAS.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ship wood part (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ship wood part (4).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Wood Plank_Variation1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wood Plank_Variation4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Wood Plank_Variation4.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "New_32scene",
+      "name": "New scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": true,
+        "zoomFactor": 1.3800000000000003
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "d21cecac-2359-492f-9669-d4b7a8f38685",
+          "width": 352,
+          "x": 480,
+          "y": 704,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "dc4baf50-4f19-4468-a533-7905cf2c9ea1",
+          "width": 736,
+          "x": 32,
+          "y": 704,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "9abf4804-6bc6-4a86-ac3e-6014b30308d1",
+          "width": 318,
+          "x": -64,
+          "y": 288,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "1e1ccba3-2a58-40bd-baaf-c1d77361c3b7",
+          "width": 160,
+          "x": 128,
+          "y": 416,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "57e2883e-ae9c-4573-8fe2-b95ae0a2c8b8",
+          "width": 160,
+          "x": 76,
+          "y": 548,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "8a1dd044-7c67-4833-a481-75154885ab07",
+          "width": 76,
+          "x": -1,
+          "y": 146,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -0.06251756101846695,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "91eba48a-e37d-4221-91ef-53a69b3e84cb",
+          "width": 384,
+          "x": 240,
+          "y": 94,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "b7ef3183-d37a-4774-ad4b-1963685d82e9",
+          "width": 558,
+          "x": 336,
+          "y": 288,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "94e20fcd-bb93-44ed-a8b2-66e57fa02d95",
+          "width": 160,
+          "x": 644,
+          "y": 539,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "e922652e-b9ad-46cb-98dd-757d87f6e8fe",
+          "width": 96,
+          "x": 32,
+          "y": 672,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "80c68b0b-0c3f-4fe7-9d1e-eda5d596c518",
+          "width": 64,
+          "x": 32,
+          "y": 640,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "81a18831-a3c3-4e16-96ab-3ce86e278dd4",
+          "width": 160,
+          "x": 640,
+          "y": 672,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "27676370-e2b6-42fa-a193-4b3760c5956e",
+          "width": 96,
+          "x": 672,
+          "y": 640,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "c36780ff-c0d2-4983-9254-822ea81238ce",
+          "width": 128,
+          "x": 128,
+          "y": 128,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "72a0a343-5b53-4b37-8bd3-d122e600e077",
+          "width": 128,
+          "x": 608,
+          "y": 128,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "5295e935-5170-4bea-b98d-e802a12531b3",
+          "width": 288,
+          "x": 256,
+          "y": 416,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "da137ac3-17de-4ae8-8e6e-8f9073898813",
+          "width": 128,
+          "x": 544,
+          "y": 416,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "personaje ",
+          "locked": false,
+          "name": "PERSONAJE",
+          "persistentUuid": "4896f94e-f670-45f6-8932-977e991624ca",
+          "width": 32,
+          "x": 547,
+          "y": 379,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 992,
+          "layer": "",
+          "locked": false,
+          "name": "Sand",
+          "persistentUuid": "6899b8ed-3fff-408a-948c-f93d6becb126",
+          "width": 1056,
+          "x": -77,
+          "y": -104,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "239fd84c-2680-4204-9378-ce39c6795b68",
+          "width": 160,
+          "x": 313,
+          "y": 544,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "f0823731-ca4a-40ec-84b3-aab321c2b882",
+          "width": 64,
+          "x": 528,
+          "y": 544,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "plataformas ",
+          "locked": false,
+          "name": "DesertTilePlatformCenter",
+          "persistentUuid": "a124e437-7dc1-45b1-a5c0-c0d9352a5aa2",
+          "width": 96,
+          "x": 800,
+          "y": 128,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 163,
+          "layer": "personaje ",
+          "locked": false,
+          "name": "escalera1",
+          "persistentUuid": "205ffbc1-4fcb-4ffb-aa1e-c3802b5f6885",
+          "width": 81,
+          "x": 238,
+          "y": 289,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "fonfo",
+          "locked": false,
+          "name": "escalera1",
+          "persistentUuid": "ac347d1c-17e6-4a41-ac9d-bd1c4ca17d32",
+          "width": 103,
+          "x": 66,
+          "y": 135,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 48.54476547241211,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "colisionador",
+          "persistentUuid": "d2a94939-c525-4c0b-af34-79e4e163d30f",
+          "width": 95,
+          "x": 220,
+          "y": 335,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 60.639522552490234,
+          "customSize": true,
+          "height": 18,
+          "layer": "",
+          "locked": false,
+          "name": "colisionador",
+          "persistentUuid": "90beee67-39bf-4d2f-8e38-3f7bb62b9e81",
+          "width": 105,
+          "x": 46,
+          "y": 205,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "plataformatravesable",
+          "persistentUuid": "718c0dc8-9d45-45d1-90a8-3c87d66d6e1f",
+          "width": 128,
+          "x": 220,
+          "y": 288,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 128,
+          "name": "DesertTilePlatformCenter",
+          "tags": "",
+          "texture": "tiled_Desert Tile Platform Center.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 0
+            },
+            {
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "DesertTilePlatformRight",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Desert Tile Platform Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DesertTilePlatformLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Desert Tile Platform Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bottomMargin": 128,
+          "height": 384,
+          "leftMargin": 128,
+          "name": "Sand",
+          "rightMargin": 128,
+          "tags": "",
+          "texture": "assets\\9patch_sand_all_128.png",
+          "tiled": true,
+          "topMargin": 128,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 384,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "PERSONAJE",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.10000000149011612,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Attack_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Fall_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Fall_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ground",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Ground_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Ground_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Ground_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07000000029802322,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_32.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_33.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Idle_34.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump Anticipation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07500000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Jump Anticipation.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Jump_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Jump_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Jump_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.029999999329447746,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Bald Pirate_Run_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "escalera1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "platformType": "Ladder",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "ESCALERAS",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ESCALERAS.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26.5,
+                            "y": 90.5
+                          },
+                          {
+                            "x": 439.5,
+                            "y": 474.5
+                          },
+                          {
+                            "x": 435.5,
+                            "y": 402.5
+                          },
+                          {
+                            "x": 391.5,
+                            "y": 376.5
+                          },
+                          {
+                            "x": 311.5,
+                            "y": 297.5
+                          },
+                          {
+                            "x": 244.5,
+                            "y": 229.5
+                          },
+                          {
+                            "x": 174.5,
+                            "y": 166.5
+                          },
+                          {
+                            "x": 113.5,
+                            "y": 99.5
+                          },
+                          {
+                            "x": 455,
+                            "y": 3.5
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "colisionador",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "WoodPlank_Variation1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Wood Plank_Variation1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.564453125,
+                            "y": 2.8466796875
+                          },
+                          {
+                            "x": 52.5,
+                            "y": 7.416666507720947
+                          },
+                          {
+                            "x": 61.376953125,
+                            "y": 12.8466796875
+                          },
+                          {
+                            "x": 4.189453125,
+                            "y": 12.2216796875
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "plataformatravesable",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Wood Plank_Variation4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "=",
+                "1\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "=",
+                "6\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "PERSONAJE",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "PERSONAJE",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::CurrentJumpSpeed"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject",
+                "<",
+                "0.5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "=",
+                "5\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateDownKey"
+              },
+              "parameters": [
+                "PERSONAJE",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "escalera1",
+                "=",
+                "PERSONAJE.ZOrder()-1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Plan"
+              },
+              "parameters": [
+                "plataformatravesable",
+                "=",
+                "PERSONAJE.ZOrder()-2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 36,
+          "ambientLightColorG": 6962712,
+          "ambientLightColorR": 32,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6024528,
+          "ambientLightColorR": 83886080,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "fonfo",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 7277512,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "plataformas ",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6024528,
+          "ambientLightColorR": 83886080,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "personaje ",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
